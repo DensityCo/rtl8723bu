@@ -18,8 +18,7 @@ EXTRA_CFLAGS += -Wno-unused-label
 EXTRA_CFLAGS += -Wno-unused-parameter
 EXTRA_CFLAGS += -Wno-unused-function
 EXTRA_CFLAGS += -Wno-unused
-# Disable concurrent mode, which should only give us a single wifi interface
-# EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE
+EXTRA_CFLAGS += -DCONFIG_CONCURRENT_MODE
 
 ccflags-y += -D__CHECK_ENDIAN__
 
